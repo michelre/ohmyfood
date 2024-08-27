@@ -1,17 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 24px 20px 14px 20px;
+}
+
 .logo {
     width: 200px;
     height: 35px;
 }
 .header {
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 24px 20px 14px 20px;
-    position: relative;
 }
 .arrow {
     color: inherit;
-    position: absolute;
-    left: 20px;
     top: 17px;
     font-size: 30px;
+    width: 25px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+.fa-heart {
+    color: red;
+
+    &:hover {
+        color: blue;
+    }
 }
