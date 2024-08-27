@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "sass sass/style.scss css/style.css --watch"
-  },
+  "dev": "sass sass/style.scss css/style.css --watch",
+  "sass": "sass sass/style.scss css/style.css --watch"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "sass": "^1.77.8"
   },
   "dependencies": {
     "react": "^18.3.1"
-  }
+  },
+  "description": ""
 }

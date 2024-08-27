@@ -1,3 +1,17 @@
-header {
-    background: red;
+.logo {
+    width: 200px;
+    height: 35px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 24px 20px 14px 20px;
+    position: relative;
+}
+.arrow {
+    color: inherit;
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    font-size: 30px;
 }

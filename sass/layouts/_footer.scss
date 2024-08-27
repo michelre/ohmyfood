@@ -1,0 +1,30 @@
+footer {
+    background-color: $bg-greydark;
+    padding: 22px 25px 22px 25px;
+    
+}
+.footer-logo {
+    width: 138px;
+    height: 27px;
+    margin-bottom: 16px;
+    filter: invert(100%); /* Inverse les couleurs de l'image, je pouvais utiliser .svg  */
+}
+ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+.list-1 {
+    font-weight: 500;
+}
+.list-2 {
+    font-weight: 400;
+}
+.space {
+    padding-right: 11px;
+}
+.fa-utensils {
+    font-size: 13px;
+}
+.fa-handshake-angle {
+    font-size: 11px;
+}

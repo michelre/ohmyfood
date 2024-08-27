@@ -1,1 +1,14 @@
-@import "layouts/header"
+@import "base/reset";
+@import "base/fonts";
+@import "base/typography";
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/fonction";
+@import "components/buttons";
+@import "layouts/header";
+@import "layouts/explorer";
+@import "layouts/location";
+@import "layouts/footer";
+@import "layouts/instruction";
+@import "layouts/restaurant";
+@import "layouts/menu"

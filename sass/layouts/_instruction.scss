@@ -1,0 +1,49 @@
+.instruction{
+    margin-top: 48px;
+    margin-bottom: 68px;
+}
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 26px 20px 25px 8px;
+    width: 100%;
+    
+  }
+  
+  .ellipse {
+    width: 24px;
+    height: 24px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; 
+    font-weight: 500;
+    font-size: 14px; 
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 28px 38px;
+    gap: 27px; 
+    border-radius: 25px;
+    background-color: $bg-greyligth;
+    @include shadow;
+    font-weight: 500;
+  }
+  
+  .fa {
+    font-size: 24px; 
+  }
+  
+  span {
+    font-weight: 500; 
+  }
+  

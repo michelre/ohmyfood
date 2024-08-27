@@ -1,0 +1,15 @@
+.gradient-button {
+    font-weight: 500;
+    padding: 13px 19px;
+    border-radius: 50px;
+    color: #ffffff;
+    background: linear-gradient($secondary-color -5%, $primary-color 110%);
+    @include shadow;
+    transition: all 0.5s ease;
+
+    &:hover {
+        opacity: 0.85;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.55);
+    }
+
+}

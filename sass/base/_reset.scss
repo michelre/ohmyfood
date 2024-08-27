@@ -1,0 +1,41 @@
+// _reset.scss
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto";
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+section {
+    padding: 0px 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
